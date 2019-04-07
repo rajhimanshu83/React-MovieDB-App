@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.mainSection {
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 1px solid #dddddd; 
+  margin-bottom: 60px;
+}
+
+.cards {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.cards.favorites {
+  justify-content: flex-start;
+}
+.cards.favorites .movieCard a{
+  color: #ccc;
+}
+
+
+
